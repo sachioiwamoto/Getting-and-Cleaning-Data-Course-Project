@@ -53,5 +53,5 @@ names(tidy_data)[1:2] <- c("Subject", "Activity")
 # Step X. Finally create the result data set as a txt file with write.table() using row.name=FALSE.
 #         Also clean up the temporary data set,"wd".
 #
-remove("wd")
 write.table(tidy_data, file =paste(wd, "/tidy_data.txt", sep = ""), row.names = FALSE)
+remove("wd")
